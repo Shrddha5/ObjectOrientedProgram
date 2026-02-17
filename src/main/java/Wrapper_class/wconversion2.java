@@ -1,0 +1,26 @@
+package Wrapper_class;
+
+public class wconversion2 {
+    public static void main(String[] args) {
+        String num = "10";
+        int aa = 10;
+
+        // String -> Wrapper Conversion
+        Integer a = Integer.parseInt(num); //parseconversion
+        // Double.parseDouble()
+        // Float.parseFloat()
+        // Long.parse
+
+        System.out.println(a);
+
+        // String to Primitive
+        int a_p = Integer.parseInt(num);
+
+        Integer aa3 = Integer.valueOf("10");
+        System.out.println(aa3);
+
+
+
+    }
+
+}
